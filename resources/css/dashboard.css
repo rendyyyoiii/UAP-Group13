@@ -1,0 +1,109 @@
+/* Reset dasar */  
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+}  
+
+body {  
+    font-family: 'Arial', sans-serif;  
+    background-color: #f4f4f4; /* Warna latar belakang */  
+    color: #333; /* Warna teks */  
+}  
+
+/* Container */  
+.container {  
+    max-width: 800px;  
+    margin: 20px auto;  
+    padding: 20px;  
+    background-color: white; /* Warna latar belakang konten */  
+    border-radius: 8px;  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+}  
+
+/* Judul Halaman */  
+h2 {  
+    font-size: 2em;  
+    margin-bottom: 20px;  
+}  
+
+/* Tombol Buat Artikel Baru */  
+.create-button {  
+    display: inline-block;  
+    background-color: #007bff; /* Warna biru */  
+    color: white;  
+    padding: 10px 15px;  
+    border-radius: 5px;  
+    text-decoration: none;  
+    margin-bottom: 20px;  
+    transition: background-color 0.3s;  
+}  
+
+.create-button:hover {  
+    background-color: #0056b3; /* Warna biru lebih gelap saat hover */  
+}  
+
+/* Daftar Artikel */  
+.article-item {  
+    display: flex;  
+    align-items: center;  
+    border-bottom: 1px solid #e0e0e0; /* Garis batas bawah */  
+    padding: 15px 0;  
+}  
+
+.article-item:last-child {  
+    border-bottom: none; /* Menghilangkan garis batas pada artikel terakhir */  
+}  
+
+.article-image {  
+    width: 80px; /* Lebar gambar */  
+    height: 80px; /* Tinggi gambar */  
+    border-radius: 5px;  
+    margin-right: 15px; /* Jarak antara gambar dan teks */  
+}  
+
+.article-details {  
+    flex-grow: 1; /* Membuat detail artikel mengisi ruang yang tersisa */  
+}  
+
+.article-title {  
+    font-size: 1.5em;  
+    color: #007bff; /* Warna biru untuk judul */  
+    text-decoration: none;  
+}  
+
+.article-title:hover {  
+    text-decoration: underline; /* Garis bawah saat hover */  
+}  
+
+.article-meta {  
+    font-size: 0.9em;  
+    color: #666; /* Warna teks abu-abu */  
+}  
+
+/* Ikon dan Statistik */  
+.article-stats {  
+    display: flex;  
+    align-items: center;  
+    font-size: 0.9em;  
+    color: #666;  
+}  
+
+.article-stats span {  
+    margin-right: 10px; /* Jarak antar statistik */  
+}
+
+/* Gaya untuk header */  
+header {  
+    border-radius: 8px;  
+}  
+
+/* Gaya untuk pesan sukses */  
+.bg-green-500 {  
+    border-radius: 5px;  
+}  
+
+/* Gaya untuk tautan navigasi */  
+nav a {  
+    transition: color 0.3s ease;  
+}
